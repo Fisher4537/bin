@@ -10,7 +10,7 @@ W1="dir1"
 W2="dir2"
 DIR="path/to/parent/folder/"
 COMMAND="ls -la"
-tmux has-session -t $SESSIONNAME &> /dev/null
+tmux has-session -t $SESSIONNAME 
 
 if [ $? != 0 ] 
  then
